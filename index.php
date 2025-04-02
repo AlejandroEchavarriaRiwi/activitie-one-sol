@@ -4,8 +4,8 @@ session_start();
 
 // Incluir archivos necesarios
 require_once 'config.php';
-require_once 'models/User.php';
-require_once 'models/Post.php';
+require_once 'models/user.php';
+require_once 'models/post.php';
 require_once 'controllers/AuthController.php';
 require_once 'controllers/PostController.php';
 
